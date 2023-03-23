@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿
 using System.Linq;
 
 
@@ -16,8 +16,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 mons.Add("Bulbasaur");
                 mons.Add("Charizard");
                 mons.Add("Squirtle");
+                mons.Add("Pikachu");
+                mons.Add("MewTwo");
+                mons.Add("Eevee");
+                mons.Add("Mew");
+                mons.Add("Greninja");
+                mons.Add("Snorlax");
+           
 
-                int index = Random.Next(mons.Count);
+            int index = Random.Next(mons.Count);
                 string oMon = mons[index];
            
         
