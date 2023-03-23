@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Test Battle App.csproj": {}
+  },
+  "projects": {
+    "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Test Battle App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Test Battle App.csproj",
+        "projectName": "Test Battle App",
+        "projectPath": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Test Battle App.csproj",
+        "packagesPath": "/Users/matthewmeadows4/.nuget/packages/",
+        "outputPath": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matthewmeadows4/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
