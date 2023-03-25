@@ -22,13 +22,24 @@ public class Combat
 
         int index = Random.Next(mons.Count);
         string oMon = mons[index];
+
         int playerhealth = 20;
         int enemyhealth = 20;
 
+
+        Console.WriteLine("-- I see that Professor Oak has given you a fully evolved Charizard!");
+
+        Console.WriteLine("What is your new Charizard's Name?");
+        string monName = Console.ReadLine();
+        Console.WriteLine(monName + "?... Excellent Choice!");
+        Console.WriteLine("-- You begin to walk down route 1, when all of the sudden, you are attacked by a wild" + oMon + "! You and " + monName + " look at each other, and agree... YOU'VE GOT THIS!--");
+
+
+
         while (playerhealth > -1 && enemyhealth > -1)
         {
-            Console.WriteLine("The " + " has " + playerhealth + " health");
-            Console.WriteLine("The " + oMon + " has" + enemyhealth + " health");
+            Console.WriteLine(monName + " has " + playerhealth + " health") ;
+            Console.WriteLine("The " + oMon + " has " + enemyhealth + " health");
             Console.WriteLine("press 1 to attack, or 2 to heal");
             string choice = Console.ReadLine();
             int enemydamage = new Random().Next(1, 4);
