@@ -42,7 +42,7 @@ public class Combat
 
         string sound = charizard.MakeSound();
 
-        Console.WriteLine(monName + "Is ready for battle! As you begin to prepare, they let out a loud " + charizard.MakeSound() +"!");
+        Console.WriteLine(monName + " Is ready for battle! As you begin to prepare, they let out a loud " + charizard.MakeSound());
 
      
         while (playerhealth > 0 && enemyhealth > 0)
