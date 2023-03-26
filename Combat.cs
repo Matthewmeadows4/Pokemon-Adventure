@@ -3,7 +3,7 @@ namespace MyApp;
 
 public class Combat
 {
-    public Combat()
+    public static void combat()
     {
 
         Console.WriteLine("-- I see that Professor Oak has given you a fully evolved Charizard!");
@@ -13,25 +13,27 @@ public class Combat
         Console.WriteLine(monName + "?... Excellent Choice!");
 
 
-        var Random = new Random();
-        List<string> mons = new List<string>();
 
-        mons.Add("Bulbasaur");
-        mons.Add("Charizard");
-        mons.Add("Squirtle");
-        mons.Add("Pikachu");
-        mons.Add("MewTwo");
-        mons.Add("Eevee");
-        mons.Add("Mew");
-        mons.Add("Greninja");
-        mons.Add("Snorlax");
+            var Random = new Random();
+            List<string> mons = new List<string>();
+
+            mons.Add("Bulbasaur");
+            mons.Add("Charizard");
+            mons.Add("Squirtle");
+            mons.Add("Pikachu");
+            mons.Add("MewTwo");
+            mons.Add("Eevee");
+            mons.Add("Mew");
+            mons.Add("Greninja");
+            mons.Add("Snorlax");
 
 
-        int index = Random.Next(mons.Count);
-        string oMon = mons[index];
 
-        int playerhealth = 20;
-        int enemyhealth = 20;
+            int index = Random.Next(mons.Count);
+            string oMon = mons[index];
+
+            int playerhealth = 20;
+            int enemyhealth = 20;
 
 
         Console.WriteLine("-- You begin to walk down route 1, when all of the sudden, you are attacked by a wild" + oMon + "! You and " + monName + " look at each other, and agree... YOU'VE GOT THIS!--");
@@ -40,7 +42,9 @@ public class Combat
 
         string sound = charizard.MakeSound();
 
-        Console.WriteLine(charizard.MakeSound());
+        Console.WriteLine(monName+ "Is ready for battle! As you begin to prepare, they let out a loud" + charizard.MakeSound() +"!");
+
+     
         while (playerhealth > 0 && enemyhealth > 0)
 
         {
@@ -61,9 +65,15 @@ public class Combat
             }
             if (choice == "2")
             {
-                Console.WriteLine("You healed for " + enemydamage + "Health");
-                Console.WriteLine("The" + oMon + " wouldve dealt " + enemydamage + " damage.");
+                Console.WriteLine("You healed for " + enemydamage + " Health");
+                Console.WriteLine("The" + oMon + " wouldve dealt " + enemydamage + " damage.") ;
                 playerhealth += enemydamage;
+            }
+
+            if(playerhealth > 25)
+            {
+                Console.WriteLine("You have reached max health!");
+                playerhealth = 25;
             }
 
             if (choice != "1" && choice != "2")
@@ -77,8 +87,9 @@ public class Combat
             if (enemyhealth <= 0)
             {
                 Console.WriteLine("Wow! You and " + monName + " did it! You make a great team!");
+                int VictoryCalc = Margain_Calculator.MargCalc(playerhealth, enemyhealth);
+                Console.WriteLine("You won by " + VictoryCalc + " Points!");
             }
-
         }
     }
 }

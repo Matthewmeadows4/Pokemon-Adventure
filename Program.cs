@@ -1,9 +1,6 @@
 ﻿
-using System.Linq;
 using System;
 namespace MyApp;
-
-
 
 class Program
 
@@ -11,15 +8,14 @@ class Program
     static void Main(string[] args)
     {
 
-        Console.WriteLine("Welcome to Pokemone Adventure! would you like to begin?");
-        Console.WriteLine("Enter 1 to start, or 2 to quit (use CNTRL + C to exit anytime.)");
+        StartGame.start();
 
         bool restart = true;
         while (restart)
         {
-
-            CharacterCreate characterCreate = new CharacterCreate();
-            Combat combat = new Combat();
+            
+            CharacterCreate.create();
+            Combat.combat();
 
             Console.WriteLine("Press 1 to play again or 2 to quit");
             string choice = Console.ReadLine();

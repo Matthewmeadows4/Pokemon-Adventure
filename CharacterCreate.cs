@@ -6,7 +6,7 @@ namespace MyApp;
 public class CharacterCreate
 {
 
-    public CharacterCreate()
+    public static void create()
     {
         Console.WriteLine("-- Welcome to your very own Pokemon Adventure!--");
         Console.WriteLine("-- What is your name? --");
