@@ -2,12 +2,13 @@
 using System;
 namespace MyApp;
 
-class Program
+class Program {
 
-{
+
     static void Main(string[] args)
     {
 
+        Header.pokeheader();
         StartGame.start();
 
         bool restart = true;
