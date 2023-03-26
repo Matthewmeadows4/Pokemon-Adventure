@@ -7,8 +7,12 @@ The features that ichose to include in this project are:
 where the user can repeatedly enter
 commands/perform actions, including choosing
 to exit the program.
+
+
 2.Create an additional class which inherits one or
 more properties from its parent.
+
+
 3.Create a dictionary or list, populate it with
 several values, retrieve at least one value, and
 use it in your program.
