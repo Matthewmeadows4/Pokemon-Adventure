@@ -1,9 +1,15 @@
 ﻿<Properties StartupConfiguration="{346482D8-85A4-49E6-845A-E43BAA0EB78B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Test_220Battle_220App PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Combat.cs">
     <Files>
-      <File FileName="Program.cs" Line="22" Column="1" />
-      <File FileName="EmptyClass.cs" Line="59" Column="14" />
-      <File FileName="CharacterCreate.cs" Line="14" Column="1" />
+      <File FileName="Program.cs" Line="23" Column="1" />
+      <File FileName="CharacterCreate.cs" Line="18" Column="6" />
+      <File FileName="Combat.cs" Line="79" Column="98" />
+      <File FileName="EmptyClass.cs" Line="17" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,18 +19,13 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
-              <Node name="Combat.cs" selected="True" />
+              <Node name="EmptyClass.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Test_220Battle_220App PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
