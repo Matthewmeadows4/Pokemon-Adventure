@@ -2,8 +2,7 @@
 using System;
 namespace MyApp;
 
-class Program {
-
+class PokemonAdventure {
 
     static void Main(string[] args)
     {

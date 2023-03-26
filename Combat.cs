@@ -63,7 +63,7 @@ public class Combat
             if (choice == "2")
             {
                 Console.WriteLine("You healed for " + enemydamage + " Health");
-                Console.WriteLine("The" + oMon + " wouldve dealt " + enemydamage + " damage.") ;
+                Console.WriteLine("The " + oMon + " wouldve dealt " + enemydamage + " damage.") ;
                 playerhealth += enemydamage;
             }
 
@@ -75,7 +75,7 @@ public class Combat
 
             if (choice != "1" && choice != "2")
             {
-                Console.WriteLine("That's not right");
+                Console.WriteLine("That's not right! Enter 1 to attack or 2 to heal.");
             }
             if (playerhealth <= 0)
             {
