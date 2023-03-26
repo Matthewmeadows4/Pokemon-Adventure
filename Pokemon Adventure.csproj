@@ -6,6 +6,7 @@
     <RootNamespace>Test_Battle_App</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>Test Battle App</AssemblyName>
   </PropertyGroup>
 
 </Project>

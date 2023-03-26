@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Test Battle App.csproj": {}
+    "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Pokemon Adventure.csproj": {}
   },
   "projects": {
-    "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Test Battle App.csproj": {
+    "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Pokemon Adventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Test Battle App.csproj",
-        "projectName": "Test Battle App",
-        "projectPath": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Test Battle App.csproj",
+        "projectUniqueName": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Pokemon Adventure.csproj",
+        "projectName": "Pokemon Adventure",
+        "projectPath": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Pokemon Adventure.csproj",
         "packagesPath": "/Users/matthewmeadows4/.nuget/packages/",
         "outputPath": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/",
         "projectStyle": "PackageReference",

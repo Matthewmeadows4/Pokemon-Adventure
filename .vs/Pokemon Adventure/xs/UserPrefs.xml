@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{346482D8-85A4-49E6-845A-E43BAA0EB78B}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Pokemon_220Adventure PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Combat.cs">
     <Files>
-      <File FileName="Program.cs" Line="23" Column="1" />
-      <File FileName="CharacterCreate.cs" Line="18" Column="6" />
-      <File FileName="Combat.cs" Line="79" Column="98" />
-      <File FileName="EmptyClass.cs" Line="17" Column="6" />
+      <File FileName="Program.cs" />
+      <File FileName="CharacterCreate.cs" />
+      <File FileName="Combat.cs" Line="79" Column="48" />
+      <File FileName="EmptyClass.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Test Battle App" expanded="True">
-            <Node name="Test Battle App" expanded="True">
+          <Node name="Pokemon Adventure" expanded="True">
+            <Node name="Pokemon Adventure" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
-              <Node name="EmptyClass.cs" selected="True" />
             </Node>
           </Node>
         </State>

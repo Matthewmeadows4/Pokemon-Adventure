@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matthewmeadows4/Downloads/Pokemon-Adventure-main/Test Battle App.csproj",
-      "projectName": "Test Battle App",
-      "projectPath": "/Users/matthewmeadows4/Downloads/Pokemon-Adventure-main/Test Battle App.csproj",
+      "projectUniqueName": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Pokemon Adventure.csproj",
+      "projectName": "Pokemon Adventure",
+      "projectPath": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/Pokemon Adventure.csproj",
       "packagesPath": "/Users/matthewmeadows4/.nuget/packages/",
-      "outputPath": "/Users/matthewmeadows4/Downloads/Pokemon-Adventure-main/obj/",
+      "outputPath": "/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/matthewmeadows4/.nuget/NuGet/NuGet.Config"

@@ -1,0 +1,15 @@
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/bin/Debug/net7.0/Test Battle App
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/bin/Debug/net7.0/Test Battle App.deps.json
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/bin/Debug/net7.0/Test Battle App.runtimeconfig.json
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/bin/Debug/net7.0/Test Battle App.dll
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/bin/Debug/net7.0/Test Battle App.pdb
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/Pokemon Adventure.csproj.AssemblyReference.cache
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/Pokemon Adventure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/Pokemon Adventure.AssemblyInfoInputs.cache
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/Pokemon Adventure.AssemblyInfo.cs
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/Pokemon Adventure.csproj.CoreCompileInputs.cache
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/Test Battle App.dll
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/refint/Test Battle App.dll
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/Test Battle App.pdb
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/Pokemon Adventure.genruntimeconfig.cache
+/Users/matthewmeadows4/Desktop/Repos/Pokemon-Adventure/obj/Debug/net7.0/ref/Test Battle App.dll
