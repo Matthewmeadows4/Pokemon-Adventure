@@ -9,7 +9,7 @@ class Program {
     {
 
         Header.pokeheader();
-        StartGame.start();
+       
 
         bool restart = true;
         while (restart)
