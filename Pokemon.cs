@@ -2,8 +2,9 @@
 namespace MyApp;
 public class Pokemon
 {
-    public string Name { get; set;  }  
-    public virtual string MakeSound()
+    public string Type;
+    public string Name { get; set; }
+    public virtual string roar()
     {
         return "Pokemon Roar";
     }
@@ -11,7 +12,9 @@ public class Pokemon
 
 public class Charizard : Pokemon
 {
-    public override string MakeSound()
+    public string Type = "Fire";
+    public string Name = "";
+    public override string roar()
     {
         return "GRRRRRRRRRRROO!";
     }

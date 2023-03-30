@@ -5,10 +5,7 @@ public class Combat
 {
     public static void combat()
     {
-        
-
-
-        string name = CharName.name();
+       string name = CharName.name();
 
             var Random = new Random();
             List<string> mons = new List<string>();
@@ -32,14 +29,14 @@ public class Combat
             int enemyhealth = 30;
 
 
-        Console.WriteLine("You begin to walk down route 1, when all of the sudden, you are attacked by a wild" + oMon + "! You and " + name + " look at each other, and agree... YOU'VE GOT THIS!");
+        Console.WriteLine("You begin to walk down route 1, when all of the sudden, you are attacked by a wild " + oMon + "! You and " + name + " look at each other, and agree... YOU'VE GOT THIS!");
 
         Charizard charizard = new Charizard();
 
 
-        string sound = charizard.MakeSound();
+        string sound = charizard.roar();
 
-        Console.WriteLine(name + " Is ready for battle! As you begin to prepare, they let out a loud " + charizard.MakeSound());
+        Console.WriteLine(name + " Is ready for battle! As you begin to prepare, they let out a loud " + charizard.roar());
 
      
         while (playerhealth > 0 && enemyhealth > 0)
