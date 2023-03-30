@@ -76,7 +76,7 @@ public class Combat
             }
             if (playerhealth <= 0)
             {
-                Console.WriteLine("Oh no! " + name + " has fainted! You rush to the nearst Pokemon center to tkae care of your friend.");
+                Console.WriteLine("Oh no! " + name + " has fainted! You rush to the nearst Pokemon center to take care of your friend.");
             }
             if (enemyhealth <= 0)
             {

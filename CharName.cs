@@ -7,16 +7,16 @@ public class CharName
 {
     public static string name()
     {
-        Charizard charizard = new Charizard();
-        Console.WriteLine("I see that Professor Oak has given you a fully evolved Charizard, a " + charizard.Type + " Pokemon!");
+        Charizard myCharizard = new Charizard();
+        Console.WriteLine("I see that Professor Oak has given you a fully evolved Charizard, a " + myCharizard.Type + " Pokemon!");
 
         Console.WriteLine("What is your new Charizard's Name?");
         
         string name = Console.ReadLine();
-        charizard.Name = name;
-        Console.WriteLine(charizard.Name + "?... Excellent Choice!");
+        myCharizard.Name = name;
+        Console.WriteLine(myCharizard.Name + "?... Excellent Choice!");
 
-        return charizard.Name;
+        return myCharizard.Name;
       
 
     }
