@@ -9,7 +9,6 @@ class PokemonAdventure {
 
         Header.pokeheader();
        
-
         bool restart = true;
         while (restart)
         {

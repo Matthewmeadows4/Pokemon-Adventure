@@ -11,7 +11,6 @@ public class Pokemon
 
 public class Charizard : Pokemon
 {
-    
     public override string MakeSound()
     {
         return "GRRRRRRRRRRROO!";

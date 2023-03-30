@@ -29,10 +29,10 @@ public class Combat
             string oMon = mons[index];
 
             int playerhealth = 20;
-            int enemyhealth = 20;
+            int enemyhealth = 30;
 
 
-        Console.WriteLine("-- You begin to walk down route 1, when all of the sudden, you are attacked by a wild" + oMon + "! You and " + name + " look at each other, and agree... YOU'VE GOT THIS!--");
+        Console.WriteLine("You begin to walk down route 1, when all of the sudden, you are attacked by a wild" + oMon + "! You and " + name + " look at each other, and agree... YOU'VE GOT THIS!");
 
         Charizard charizard = new Charizard();
 
